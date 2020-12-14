@@ -1,13 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+.main-wrapper {
+  background: #eeeeee;
+  display: flex;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+a {
+  color: #4688f1;
+}
+.center-txt {
+  text-align: center;
+}
+.mt-15 {
+  margin-top: 15px !important;
+}
+.mt-20 {
+  margin-top: 20px !important;
+}
+.ml-15 {
+  margin-left: 15px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mt-95 {
+  margin-top: 95px;
+}
+.m-24 {
+  margin: 24px;
+}
+.customBtn {
+  background: #4688f1;
+}
+.hide {
+  display: none;
+}
+.align-center {
+  text-align: center;
+}
+.my-10 {
+  margin: 0 10px !important;
+}
+.labelInfo .label {
+  display: block;
+  color: #969696;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.btn-container {
+  margin: 55px 0 0 0;
+  padding: 15px 0 0 0;
+  border-top: 1px solid #c4c4c4;
+  display: flex;
+}
+
+.dialog-container {
+  background: #f7f8fc;
+  padding: 10px;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+
+.heading {
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
 }
