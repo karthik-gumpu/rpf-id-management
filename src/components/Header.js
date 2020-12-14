@@ -44,14 +44,20 @@ const Header = (props) => {
       alignItems="center"
       className="header card"
       spacing={2}
+      style={{ padding: 10 }}
     >
-      <Grid item xs={2}>
-        <div className="logo-container">RPF</div>
+      <Grid item xs={4}>
+        <div
+          className="logo-container"
+          style={{ fontSize: 16, fontWeight: "bold" }}
+        >
+          RPF PGT
+        </div>
       </Grid>
 
-      <Grid container justify="center" alignItems="center" item xs={10}>
+      <Grid container justify="center" alignItems="center" item xs={8}>
         <Grid item xs={8}></Grid>
-        <Grid item xs={4}>
+        <Grid item xs={4} style={{ textAlign: "end" }}>
           <div className="menubar">
             <Button
               aria-controls="simple-menu"

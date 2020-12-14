@@ -108,6 +108,7 @@ const Register = (props) => {
           value={data.bloodGroup}
         />
         <br />
+        <br />
         <input type="file" onChange={handleFileChange} />
         <br />
         <br />

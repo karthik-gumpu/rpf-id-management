@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     height: 160,
   },
   profilePic: {
-    width: 140,
+    width: "32%",
     height: 160,
     float: "left",
   },
