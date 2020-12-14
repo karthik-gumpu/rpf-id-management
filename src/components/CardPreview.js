@@ -117,7 +117,7 @@ const IDCardRearView = ({ user }) => {
         </div>
         <hr />
         <Grid item>
-          <table style={{ paddingLeft: 160 }}>
+          <table style={{ marginLeft: "auto", marginRight: "auto" }}>
             <tr>
               <td className="heading">Mob.No</td>
               <td>: {user.contact}</td>
